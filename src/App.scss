@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  height: 100vh;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    transition: margin-left 0.3s ease;
+  }
+
+  &--collapsed .app__main {
+    margin-left: 80px;
+  }
+
+  &--expanded .app__main {
+    margin-left: 250px;
+  }
+
+  @media (max-width: 1200px) {
+    &--expanded .app__main {
+      margin-left: 0;
+    }
+    &--collapsed .app__main {
+      margin-left: 0;
+    }
+  }
+}

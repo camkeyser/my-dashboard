@@ -1,0 +1,283 @@
+.weather-module {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  /* ZIP code form */
+  &--form {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 40px 40px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      label {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 200px;
+        text-align: center;
+      }
+
+      button {
+        all: unset;
+        position: relative;
+        background-color: #666666;
+        border: none;
+        color: #fff;
+        overflow: hidden;
+        padding: 13px 35px 12px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: inherit;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.25s ease-in-out;
+        border: none;
+      
+        &::before {
+          content: "\f054";
+          font-family: "Font Awesome 6 Free", sans-serif;
+          font-weight: 900;
+          font-size: 12px;
+          width: 25px;
+          height: calc(100% + 2px);
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translate(-100%, -50%) scale(0, 1);
+          transform-origin: left center;
+          color: #fff;
+          background-color: rgba(255, 255, 255, 0.3);
+          text-indent: 3px;
+          transition: all 0.25s ease-in-out;
+          z-index: 1;
+          line-height: 3.5;
+        }
+      
+        &:hover {
+          background-color: #494949;
+          padding: 13px 28px 12px 42px;
+          &::before {
+            transform: translate(0, -50%) scale(1, 1);
+          }
+        }
+      }
+    }
+  }
+
+  .today-section {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    position: relative;
+
+    img {
+      margin-top: 25px;
+      width: 55%;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .temp-bold {
+      font-size: 2em;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    .ls-weather {
+      width: 33%;
+    }
+  }
+
+  .forecast-section {
+    width: 62%;
+    border-radius: 10px;
+    padding: 70px 0 30px;
+    position: relative;
+
+    .forecast-grid {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 1px;
+      position: relative;
+
+      .forecast-day {
+        text-align: center;
+        flex: 1;
+        border-right: 1px solid #404040;
+        padding: 10px;
+        margin: 0;
+
+        &:last-child {
+          border-right: none;
+        }
+
+        img {
+          width: 85px;
+          margin-bottom: 5px;
+        }
+
+        .HL-flex {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+
+          .sub-data {
+            font-size: 20px;
+          }
+        }
+
+        p {
+          margin: 5px 0;
+          color: #fff;
+          font-size: 14px;
+        }
+
+        .day-name {
+          font-weight: bold;
+        }
+
+        .sub-data {
+          margin: 5px 0;
+        }
+
+        .weather-icon {
+          margin-top: 5px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+.module-highlight .weather-module {
+    width: calc(100% - 60px);
+    margin: 30px auto 0;
+}
+
+
+/* Theme styles */
+.weather-module--midnight {
+  background: linear-gradient(to bottom, #20a6a645, #3c2a42);
+}
+
+.weather-module--sunrise {
+  background: linear-gradient(to bottom, #ce202082, #ff8800d4);
+
+  form button {
+    background-color: #282828;
+    border: none;
+  }
+}
+
+.weather-module--charcoal {
+  background: linear-gradient(to bottom, #292929, #1a1a1a, #0f0f0f);
+}
+
+.weather-module--gemini {
+  background: linear-gradient(to bottom, #43B0BD, #f2d35a80);
+}
+
+.weather-module--deepsea {
+  background: linear-gradient(to bottom, #001F54, #00a6fb8a);
+}
+
+.weather-module--atlas {
+  background: linear-gradient(to bottom, #000000, #8B0000);
+}
+
+@media (max-width: 1170px) {
+  .weather-module {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weather-module .forecast-section {
+    width: 100%;
+    border-top: 1px solid #404040;
+  }
+  
+  .weather-module .today-section {
+    width: 42%;
+  }
+}
+
+@media (max-width: 700px) {
+  .weather-module {
+
+    .today-section {
+      width: 100%;
+    }
+  
+    .forecast-section .forecast-grid {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 90%;
+      align-self: center;
+      margin: 0 auto;
+
+      .forecast-day {
+        max-width: 48%;
+        min-width: 48%;
+
+        &:nth-child(1) {
+          border-bottom: 1px solid #404040;
+        }
+
+        &:nth-child(2) {
+          border-right: none;
+          border-bottom: 1px solid #404040;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 555px) {
+  .weather-module--form {
+    width: 100%;
+  }
+}

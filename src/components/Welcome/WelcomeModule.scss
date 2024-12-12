@@ -1,0 +1,97 @@
+.welcome-module {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+
+  &__left {
+    width: 20%;
+  }
+
+  &__right {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  &__notice {
+    margin-top: 20px;
+
+    p {
+      margin: 0 0 20px 0;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    span.big-count {
+      font-size: 1.5em;
+      color: #019863;
+    }
+
+    .welcome-module__button {
+      position: relative;
+      background-color: #666666;
+      color: #fff;
+      padding: 13px 35px 12px;
+      border-radius: 10px;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.25s ease-in-out;
+    
+      &::before {
+        content: "\f054";
+        font-family: "Font Awesome 6 Free", sans-serif;
+        font-weight: 900;
+        font-size: 12px;
+        width: 25px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-100%, -50%) scale(0, 1);
+        transform-origin: left center;
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.3);
+        text-indent: 8px;
+        transition: all 0.25s ease-in-out;
+        z-index: 1;
+        line-height: 3.5;
+      }
+    
+      &:hover {
+        background-color: #494949;
+        padding: 13px 28px 12px 42px;
+        &::before {
+          transform: translate(0, -50%) scale(1, 1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1450px) {
+  .welcome-module {
+    flex-direction: column;
+  }
+
+  .welcome-module__right,
+  .welcome-module__left {
+    width: 100%;
+  }
+
+  p.welcome-module__subtitle br {
+    display: none;
+  }
+}

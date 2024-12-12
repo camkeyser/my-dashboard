@@ -1,0 +1,75 @@
+.qotd-module {
+  width: 48%;
+  height: 420px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 50px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+  }
+
+  .quote {
+    font-size: 22px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .author {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+/* Theme styles */
+.qotd-module--midnight {
+  background: linear-gradient(to bottom, #20a6a645, #3c2a42);
+}
+
+.qotd-module--sunrise {
+  background: linear-gradient(to bottom, #ce202082, #ff8800d4);
+}
+
+.qotd-module--charcoal {
+  background: linear-gradient(to bottom, #292929, #1a1a1a, #0f0f0f);
+}
+
+.qotd-module--gemini {
+  background: linear-gradient(to bottom, #43B0BD, #f2d35a80);
+}
+
+.qotd-module--deepsea {
+  background: linear-gradient(to bottom, #001F54, #00a6fb8a);
+}
+
+.qotd-module--atlas {
+  background: linear-gradient(to bottom, #000000, #8B0000);
+}
+
+@media (max-width: 1170px) {
+  .qotd-module {
+    width: 100%;
+  }
+}
+
+@media (max-width: 665px) {
+  .qotd-module .quote {
+    font-size: 1.2em;
+  }
+}

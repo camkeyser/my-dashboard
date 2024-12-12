@@ -1,0 +1,35 @@
+$primary-color: #1C160C;
+$secondary-color: #A18249;
+$accent-color: #019863;
+$font-family: 'Plus Jakarta Sans', 'Noto Sans', sans-serif;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  background-color: #242424;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}

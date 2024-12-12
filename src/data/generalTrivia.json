@@ -1,0 +1,490 @@
+{
+    "results": [
+        {
+            "question": "What is the capital city of Canada?",
+            "correct_answer": "Ottawa",
+            "incorrect_answers": [
+                "Toronto",
+                "Vancouver",
+                "Montreal"
+            ]
+        },
+        {
+            "question": "Who wrote the novel '1984'?",
+            "correct_answer": "George Orwell",
+            "incorrect_answers": [
+                "Aldous Huxley",
+                "Ray Bradbury",
+                "J.K. Rowling"
+            ]
+        },
+        {
+            "question": "What is the smallest country in the world by land area?",
+            "correct_answer": "Vatican City",
+            "incorrect_answers": [
+                "Monaco",
+                "Nauru",
+                "San Marino"
+            ]
+        },
+        {
+            "question": "Which element has the chemical symbol 'O'?",
+            "correct_answer": "Oxygen",
+            "incorrect_answers": [
+                "Osmium",
+                "Oganesson",
+                "Ozone"
+            ]
+        },
+        {
+            "question": "Who painted the ceiling of the Sistine Chapel?",
+            "correct_answer": "Michelangelo",
+            "incorrect_answers": [
+                "Leonardo da Vinci",
+                "Pablo Picasso",
+                "Vincent van Gogh"
+            ]
+        },
+        {
+            "question": "Which planet is known as the 'Giant Red Spot'?",
+            "correct_answer": "Jupiter",
+            "incorrect_answers": [
+                "Mars",
+                "Saturn",
+                "Venus"
+            ]
+        },
+        {
+            "question": "Who was the first woman to win a Nobel Prize?",
+            "correct_answer": "Marie Curie",
+            "incorrect_answers": [
+                "Dorothy Hodgkin",
+                "Rosalind Franklin",
+                "Ada Lovelace"
+            ]
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "correct_answer": "Japan",
+            "incorrect_answers": [
+                "China",
+                "South Korea",
+                "Thailand"
+            ]
+        },
+        {
+            "question": "Who is the author of the Harry Potter book series?",
+            "correct_answer": "J.K. Rowling",
+            "incorrect_answers": [
+                "J.R.R. Tolkien",
+                "George R.R. Martin",
+                "Suzanne Collins"
+            ]
+        },
+        {
+            "question": "Which famous physicist developed the theory of general relativity?",
+            "correct_answer": "Albert Einstein",
+            "incorrect_answers": [
+                "Isaac Newton",
+                "Nikola Tesla",
+                "Marie Curie"
+            ]
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "correct_answer": "Canberra",
+            "incorrect_answers": [
+                "Sydney",
+                "Melbourne",
+                "Brisbane"
+            ]
+        },
+        {
+            "question": "Which movie won the Academy Award for Best Picture in 1994?",
+            "correct_answer": "Forrest Gump",
+            "incorrect_answers": [
+                "The Shawshank Redemption",
+                "Pulp Fiction",
+                "The Lion King"
+            ]
+        },
+        {
+            "question": "Which planet is known as the Morning Star?",
+            "correct_answer": "Venus",
+            "incorrect_answers": [
+                "Mars",
+                "Mercury",
+                "Jupiter"
+            ]
+        },
+        {
+            "question": "What is the longest river in South America?",
+            "correct_answer": "Amazon River",
+            "incorrect_answers": [
+                "Paraná River",
+                "Orinoco River",
+                "São Francisco River"
+            ]
+        },
+        {
+            "question": "Which of these is the largest country by land area?",
+            "correct_answer": "Russia",
+            "incorrect_answers": [
+                "Canada",
+                "United States",
+                "China"
+            ]
+        },
+        {
+            "question": "What is the chemical symbol for the element gold?",
+            "correct_answer": "Au",
+            "incorrect_answers": [
+                "Ag",
+                "Pb",
+                "Fe"
+            ]
+        },
+        {
+            "question": "Which famous detective lives at 221B Baker Street?",
+            "correct_answer": "Sherlock Holmes",
+            "incorrect_answers": [
+                "Hercule Poirot",
+                "Miss Marple",
+                "Sam Spade"
+            ]
+        },
+        {
+            "question": "In which year did the Titanic sink?",
+            "correct_answer": "1912",
+            "incorrect_answers": [
+                "1905",
+                "1932",
+                "1921"
+            ]
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "correct_answer": "Skin",
+            "incorrect_answers": [
+                "Liver",
+                "Brain",
+                "Heart"
+            ]
+        },
+        {
+            "question": "Which element has the atomic number 6?",
+            "correct_answer": "Carbon",
+            "incorrect_answers": [
+                "Nitrogen",
+                "Oxygen",
+                "Helium"
+            ]
+        },
+        {
+            "question": "What is the capital of France?",
+            "correct_answer": "Paris",
+            "incorrect_answers": [
+                "London",
+                "Berlin",
+                "Madrid"
+            ]
+        },
+        {
+            "question": "What year did the first manned moon landing occur?",
+            "correct_answer": "1969",
+            "incorrect_answers": [
+                "1971",
+                "1967",
+                "1959"
+            ]
+        },
+        {
+            "question": "Which continent is the Sahara Desert located on?",
+            "correct_answer": "Africa",
+            "incorrect_answers": [
+                "Asia",
+                "South America",
+                "Australia"
+            ]
+        },
+        {
+            "question": "Which movie features the quote 'May the Force be with you'?",
+            "correct_answer": "Star Wars",
+            "incorrect_answers": [
+                "The Matrix",
+                "Back to the Future",
+                "The Godfather"
+            ]
+        },
+        {
+            "question": "Which country invented the first modern paper?",
+            "correct_answer": "China",
+            "incorrect_answers": [
+                "Egypt",
+                "Greece",
+                "Rome"
+            ]
+        },
+        {
+            "question": "Which famous building was designed by Frank Lloyd Wright?",
+            "correct_answer": "Fallingwater",
+            "incorrect_answers": [
+                "Eiffel Tower",
+                "Empire State Building",
+                "Sydney Opera House"
+            ]
+        },
+        {
+            "question": "Which is the longest-running TV show in history?",
+            "correct_answer": "The Simpsons",
+            "incorrect_answers": [
+                "Friends",
+                "The Office",
+                "The Big Bang Theory"
+            ]
+        },
+        {
+            "question": "Which famous artist created the 'Starry Night' painting?",
+            "correct_answer": "Vincent van Gogh",
+            "incorrect_answers": [
+                "Claude Monet",
+                "Pablo Picasso",
+                "Salvador Dalí"
+            ]
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "correct_answer": "Yen",
+            "incorrect_answers": [
+                "Won",
+                "Ringgit",
+                "Baht"
+            ]
+        },
+        {
+            "question": "What is the primary ingredient in guacamole?",
+            "correct_answer": "Avocado",
+            "incorrect_answers": [
+                "Tomato",
+                "Onion",
+                "Lemon"
+            ]
+        },
+        {
+            "question": "Which sport is known as 'The King of Sports'?",
+            "correct_answer": "Soccer",
+            "incorrect_answers": [
+                "Basketball",
+                "Cricket",
+                "Tennis"
+            ]
+        },
+        {
+            "question": "Which country is the world's largest producer of coffee?",
+            "correct_answer": "Brazil",
+            "incorrect_answers": [
+                "Colombia",
+                "Vietnam",
+                "Mexico"
+            ]
+        },
+        {
+            "question": "What is the longest river in the world?",
+            "correct_answer": "Nile",
+            "incorrect_answers": [
+                "Amazon",
+                "Yangtze",
+                "Mississippi"
+            ]
+        },
+        {
+            "question": "Which famous artist is known for the painting 'Starry Night'?",
+            "correct_answer": "Vincent van Gogh",
+            "incorrect_answers": [
+                "Claude Monet",
+                "Pablo Picasso",
+                "Salvador Dalí"
+            ]
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "correct_answer": "Pacific Ocean",
+            "incorrect_answers": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Southern Ocean"
+            ]
+        },
+        {
+            "question": "Which city is known as the 'City of Love'?",
+            "correct_answer": "Paris",
+            "incorrect_answers": [
+                "Rome",
+                "Venice",
+                "New York"
+            ]
+        },
+        {
+            "question": "What is the most common blood type in the world?",
+            "correct_answer": "O positive",
+            "incorrect_answers": [
+                "A positive",
+                "B negative",
+                "AB positive"
+            ]
+        },
+        {
+            "question": "Which element has the chemical symbol 'Fe'?",
+            "correct_answer": "Iron",
+            "incorrect_answers": [
+                "Lead",
+                "Copper",
+                "Zinc"
+            ]
+        },
+        {
+            "question": "Which country is home to the ancient city of Petra?",
+            "correct_answer": "Jordan",
+            "incorrect_answers": [
+                "Egypt",
+                "Greece",
+                "Turkey"
+            ]
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "correct_answer": "Mount Everest",
+            "incorrect_answers": [
+                "K2",
+                "Mount Kilimanjaro",
+                "Mount Fuji"
+            ]
+        },
+        {
+            "question": "Which chemical element has the atomic number 1?",
+            "correct_answer": "Hydrogen",
+            "incorrect_answers": [
+                "Oxygen",
+                "Carbon",
+                "Helium"
+            ]
+        },
+        {
+            "question": "Which artist painted the 'Guernica'?",
+            "correct_answer": "Pablo Picasso",
+            "incorrect_answers": [
+                "Salvador Dalí",
+                "Frida Kahlo",
+                "Diego Rivera"
+            ]
+        },
+        {
+            "question": "In what year did the United States land the first man on the moon?",
+            "correct_answer": "1969",
+            "incorrect_answers": [
+                "1965",
+                "1972",
+                "1959"
+            ]
+        },
+        {
+            "question": "What is the smallest planet in our solar system?",
+            "correct_answer": "Mercury",
+            "incorrect_answers": [
+                "Mars",
+                "Venus",
+                "Pluto"
+            ]
+        },
+        {
+            "question": "Which city hosted the 2008 Summer Olympics?",
+            "correct_answer": "Beijing",
+            "incorrect_answers": [
+                "London",
+                "Rio de Janeiro",
+                "Athens"
+            ]
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "correct_answer": "Diamond",
+            "incorrect_answers": [
+                "Gold",
+                "Iron",
+                "Platinum"
+            ]
+        },
+        {
+            "question": "Who was the first president of the United States?",
+            "correct_answer": "George Washington",
+            "incorrect_answers": [
+                "Thomas Jefferson",
+                "Abraham Lincoln",
+                "John Adams"
+            ]
+        },
+        {
+            "question": "Who invented the telephone?",
+            "correct_answer": "Alexander Graham Bell",
+            "incorrect_answers": [
+                "Thomas Edison",
+                "Nikola Tesla",
+                "Guglielmo Marconi"
+            ]
+        },
+        {
+            "question": "In which year did the Titanic sink?",
+            "correct_answer": "1912",
+            "incorrect_answers": [
+                "1905",
+                "1923",
+                "1898"
+            ]
+        },
+        {
+            "question": "Which animal is the largest mammal in the world?",
+            "correct_answer": "Blue Whale",
+            "incorrect_answers": [
+                "African Elephant",
+                "Giraffe",
+                "Shark"
+            ]
+        },
+        {
+            "question": "Which famous scientist developed the theory of relativity?",
+            "correct_answer": "Albert Einstein",
+            "incorrect_answers": [
+                "Isaac Newton",
+                "Nikola Tesla",
+                "Galileo Galilei"
+            ]
+        },
+        {
+            "question": "What is the national sport of Japan?",
+            "correct_answer": "Sumo Wrestling",
+            "incorrect_answers": [
+                "Karate",
+                "Baseball",
+                "Judo"
+            ]
+        },
+        {
+            "question": "In what year did World War II end?",
+            "correct_answer": "1945",
+            "incorrect_answers": [
+                "1942",
+                "1939",
+                "1950"
+            ]
+        },
+        {
+            "question": "Which artist painted the Mona Lisa?",
+            "correct_answer": "Leonardo da Vinci",
+            "incorrect_answers": [
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Claude Monet"
+            ]
+        }
+    ]
+}
