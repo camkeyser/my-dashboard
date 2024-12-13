@@ -1,6 +1,6 @@
 # My Feed Dashboard
 
-Welcome to **My Feed Dashboard** – a customizable React-based dashboard that aggregates and displays various feeds like weather updates, news, sports highlights, trivia, and more! This project is designed to provide an engaging and user-friendly interface with modular components for easy extension and scalability.
+Welcome to **MyFeed Dashboard** – a customizable React-based dashboard that aggregates and displays various feeds like weather updates, news, sports highlights, trivia, and more! This project is designed to provide an engaging and user-friendly interface with modular components for easy extension and scalability.
 
 ## 🖥️ Features
 - **Weather Updates**: Displays real-time weather information with beautiful icons.
@@ -62,7 +62,7 @@ Follow these steps to set up the project locally:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my-feed-dashboard.git
+   git clone https://github.com/camkeyser/my-dashboard.git
    cd my-feed-dashboard
    ```
 
