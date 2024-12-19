@@ -181,9 +181,7 @@ const SportsModule = () => {
     <>
       <h4 className="game-context">Next Game:</h4> <br />
       <div className="next-g-flex">
-        {nextGame.competitions[0].competitors[0].homeAway === 'home'
-          ? `${nextGame.competitions[0].competitors[0].team.shortDisplayName} @ ${nextGame.competitions[0].competitors[1].team.shortDisplayName}`
-          : `${nextGame.competitions[0].competitors[1].team.shortDisplayName} @ ${nextGame.competitions[0].competitors[0].team.shortDisplayName}`}
+        {`${nextGame.competitions[0].competitors.find((c) => c.homeAway === 'away').team.shortDisplayName} @ ${nextGame.competitions[0].competitors.find((c) => c.homeAway === 'home').team.shortDisplayName}`}
         <br />
         <p className="gDate">{new Date(nextGame.date).toLocaleString()}</p>
       </div>

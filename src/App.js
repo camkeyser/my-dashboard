@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar/Sidebar';
 import Navbar from './components/Navbar/Navbar';
 import Dashboard from './components/Dashboard/Dashboard';
@@ -23,13 +23,27 @@ function App() {
 
   const toggleSidebar = () => {
     setIsSidebarCollapsed((prev) => !prev);
-    console.log(`Sidebar is now ${!isSidebarCollapsed ? 'open' : 'collapsed'}`);
   };
 
   const handleThemeChange = (newTheme) => {
     setTheme(newTheme);
     localStorage.setItem('theme', newTheme);
   };
+
+  // Disable scrolling when the sidebar is expanded
+  useEffect(() => {
+    const rootElement = document.getElementById('root');
+    if (!isSidebarCollapsed) {
+      rootElement.style.overflow = 'hidden';
+    } else {
+      rootElement.style.overflow = '';
+    }
+
+    // Reset overflow on unmount
+    return () => {
+      rootElement.style.overflow = '';
+    };
+  }, [isSidebarCollapsed]);
 
   const renderContent = () => {
     switch (activeComponent) {

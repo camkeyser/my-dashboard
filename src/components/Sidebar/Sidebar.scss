@@ -193,6 +193,13 @@
   .sidebar__toggle {
     display: none;
   }
+  .sidebar__nav {
+    margin-top: 42px;
+  
+    .sidebar__link {
+      justify-content: center;
+    }
+  }
 }
 
 @media (max-width: 500px) {
