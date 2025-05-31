@@ -6,11 +6,10 @@ const QotdModule = ({ theme }) => {
   const [quote, setQuote] = useState(null);
   // UPDATE THIS API KEI IN .env FILE
   const apiKey = process.env.REACT_APP_QOTD_API_KEY;
-  const category = 'happiness';
 
   useEffect(() => {
     axios
-      .get(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
+      .get(`https://api.api-ninjas.com/v1/quotes`, {
         headers: { 'X-Api-Key': apiKey },
       })
       .then((response) => {
